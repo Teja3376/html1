@@ -1,7 +1,6 @@
 body{
-   background-image: url(https://images.app.goo.gl/xiWp5M39sLbFpeqt6);
-   background-repeat: no-repeat;
-   background-size: fill;
-   background-position: centre;
-   backdrop-filter:blur(10px);
-}
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: COVER;
+    backdrop-filter: blur(10px);
+ }
