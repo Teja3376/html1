@@ -1,16 +1,28 @@
 *{
     color: aliceblue;
 }
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 100px;
+    
+}
 .card{
-    margin: 100px;
-    background-color: black;
-    height: 350px;
+    /* margin: 100px; */
+    gap: 10px;
+    background-image: url(ccbg.jpg);
+    background-position: center;
+    box-shadow: 10px 10px 20px 10px grey;
+    backdrop-filter: opacity(50%);
+    height: auto;
     width: 300px;
     border-radius: 10px;
 }
 .image{
     display: flex;
     justify-content: center;
+    
 }
 .image img{
     border-radius: 50%;
@@ -22,6 +34,7 @@
     display: flex;
     justify-content: center;
     margin-top: 45px;
+    text-shadow: 10px;
 }
 .pq{
     display: flex;
@@ -31,6 +44,7 @@
 
 }
 .input{
+    
     display: flex;
     justify-content: space-between ;
     margin: -50px 50px 0px 30px;
@@ -38,6 +52,7 @@
 
 }
 .head2{
+    text-decoration: underline;
     display: flex;
     justify-content: center;
     margin-top: -40px;
@@ -46,5 +61,46 @@
     display: flex;
     text-align: justify;
     padding: 10px;
-    margin-top: -40px;
+    margin-top: -30px;
+}
+.submit_p{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+   
+}
+.submit{
+    height: 40px;
+    width: 80px;
+    border: 1px solid white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.submit:hover{
+    background-color: rgba(0, 68, 255, 0.781);
+    transition: ease-in 0.3s;
+    border: 0px;
+    ;
+}
+.submit a{
+    text-decoration: none;
+    
+}
+input{
+    margin-top: 23px;
+    width: 29px;
+    border: 0px;
+    border-bottom: 2px;
+    color: black;
+}
+@media screen and (max-width:560px) {
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center ;
+        align-items: center;
+    }
 }
