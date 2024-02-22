@@ -1,0 +1,50 @@
+*{
+    color: aliceblue;
+}
+.card{
+    margin: 100px;
+    background-color: black;
+    height: 350px;
+    width: 300px;
+    border-radius: 10px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.image img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: -50px;
+}
+.heading1 h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.pq{
+    display: flex;
+    justify-content: space-between;
+    margin: -30px 15px 0px 15px;
+    font-size: x-large;
+
+}
+.input{
+    display: flex;
+    justify-content: space-between ;
+    margin: -50px 50px 0px 30px;
+    font-size: large;
+
+}
+.head2{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+.data{
+    display: flex;
+    text-align: justify;
+    padding: 10px;
+    margin-top: -40px;
+}

@@ -1,8 +1,8 @@
 
 body{
     color: white;
-    background-color: black;
-    background-image: url('bg.jpg');
+    
+    background-image: url('mbg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -11,7 +11,17 @@ body{
     height: 200vh;
 
 }
-
+p{
+    font-size: 80px;
+    text-align: center;
+}
+.exp{
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+   
+}
 .navbar{
     background-color: grey;
     display: flex;
@@ -36,8 +46,10 @@ body{
 }
 .a-ele{
     padding: 10px;
+    text-decoration: none;
     font-size: large;
     font-family: "Protest Revolution", sans-serif;
+    color: aliceblue;
 }
 .container-main{
     display: flex;
